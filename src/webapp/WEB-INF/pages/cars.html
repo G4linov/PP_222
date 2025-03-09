@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cars</title>
+</head>
+<body>
+
+<tr th:each="car : ${cars}">
+    <td th:text="${car.model}">A Smoke Test'</td>
+</tr>
+
+</body>
+</html>
