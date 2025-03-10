@@ -6,6 +6,7 @@ import web.model.Car;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class CarServiceImpl implements CarService {
 
     private final ArrayList<Car> cars = new ArrayList<>();;
